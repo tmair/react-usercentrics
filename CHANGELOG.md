@@ -1,3 +1,9 @@
+## [3.0.2](https://github.com/s-group-dev/react-usercentrics/compare/v3.0.1...v3.0.2) (2025-10-02)
+
+### Bug Fixes
+
+* export `useAreAllConsentsAccepted()` hook ([6d6671f](https://github.com/s-group-dev/react-usercentrics/commit/6d6671fa9637036f98da9af0adcd003465623ed6))
+
 ## [3.0.1](https://github.com/s-group-dev/react-usercentrics/compare/v3.0.0...v3.0.1) (2025-07-29)
 
 ### Bug Fixes
