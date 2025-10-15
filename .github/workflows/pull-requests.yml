@@ -7,10 +7,11 @@ jobs:
     Install:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
+            - uses: actions/checkout@v5
+            - uses: actions/setup-node@v6
               with:
                   node-version-file: .node-version
+                  package-manager-cache: false
             - uses: actions/cache@v4
               id: cache-node_modules
               with:
@@ -26,10 +27,11 @@ jobs:
             - Install
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
+            - uses: actions/checkout@v5
+            - uses: actions/setup-node@v6
               with:
                   node-version-file: .node-version
+                  package-manager-cache: false
             - uses: actions/cache@v4
               id: cache-node_modules
               with:
@@ -44,10 +46,11 @@ jobs:
             - Install
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
+            - uses: actions/checkout@v5
+            - uses: actions/setup-node@v6
               with:
                   node-version-file: .node-version
+                  package-manager-cache: false
             - uses: actions/cache@v4
               id: cache-node_modules
               with:
@@ -62,10 +65,11 @@ jobs:
             - Install
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
+            - uses: actions/checkout@v5
+            - uses: actions/setup-node@v6
               with:
                   node-version-file: .node-version
+                  package-manager-cache: false
             - uses: actions/cache@v4
               id: cache-node_modules
               with:
@@ -80,10 +84,11 @@ jobs:
             - Install
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
+            - uses: actions/checkout@v5
+            - uses: actions/setup-node@v6
               with:
                   node-version-file: .node-version
+                  package-manager-cache: false
             - uses: actions/cache@v4
               id: cache-node_modules
               with:
