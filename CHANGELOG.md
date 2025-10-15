@@ -1,3 +1,9 @@
+## [3.0.3](https://github.com/s-group-dev/react-usercentrics/compare/v3.0.2...v3.0.3) (2025-10-15)
+
+### Bug Fixes
+
+* use Trusted Publishing for publishing npm package ([a1e9408](https://github.com/s-group-dev/react-usercentrics/commit/a1e94080afad025100de7ca4950cc925c32f1dc6))
+
 ## [3.0.2](https://github.com/s-group-dev/react-usercentrics/compare/v3.0.1...v3.0.2) (2025-10-02)
 
 ### Bug Fixes
