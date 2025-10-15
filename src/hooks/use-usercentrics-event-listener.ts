@@ -40,6 +40,14 @@ export const useUsercentricsEventListener = ({
             {} as Record<ServiceId, boolean>,
         )
 
+        /**
+         * @todo Is this a problem or a false positive?
+         *
+         * There's multiple "setState" calls inside this "useEffect" but the dependency array is empty,
+         * and because of batching the state should only be updated once.
+         *
+         */
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setState((current) => ({ ...current, consents, isClientSide: true }))
 
         if ('__ucCmp' in window) {
